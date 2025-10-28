@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My personal website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        header {
+            text-align: center;
+            padding: 50px 0;
+            background-color: #f4f4f4;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        nav {
+            background-color: #333;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to my website</h1>
+        <p>This is my personal profile website</p>
+    </header>
+    
+    <nav>
+        <a href="#about">ABOUT ME</a>
+        <a href="#skills">SKILL</a>
+        <a href="#contact">Contact Information</a>
+    </nav>
+    
+    <section id="about">
+        <h2>About me</h2>
+        <p>I am a student at the Waterford College of Nanjing University of Information Science and Technology.</p>
+    </section>
+    
+    <section id="skills">
+        <h2>My skills</h2>
+        <ul>
+            <li>User Interface Design</li>
+            <li>Data Processing</li>
+            <li>Website Development</li>
+        </ul>
+    </section>
+    
+    <section id="contact">
+        <h2>please coutact me</h2>
+        <p>email：15380529990@163.com</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 My personal website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
